@@ -1,4 +1,3 @@
-````markdown
 # Drug Repurposing Prediction Using Machine Learning Algorithms
 
 Drug repurposing prediction aims to identify new therapeutic uses for existing drugs. This repository implements a complete machine learning pipeline that integrates DrugBank, CTD and BioSNAP into a unified drug–disease dataset and evaluates several models for prioritizing repurposing candidates.
@@ -365,7 +364,7 @@ The main orchestration function is:
 ```python
 def main(filepath, sample_size=300000):
     ...
-````
+
 
 It runs the full sequence:
 

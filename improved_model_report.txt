@@ -1,7 +1,7 @@
 ================================================================================
 IMPROVED XGBOOST DRUG REPURPOSING MODEL - COMPREHENSIVE REPORT
 ================================================================================
-Generated: 2025-11-29 02:51:43
+Generated: 2025-12-03 20:27:36
 ================================================================================
 
 KEY IMPROVEMENTS IMPLEMENTED:
@@ -82,43 +82,43 @@ Class weights applied:         True
 
 4. MODEL PERFORMANCE
 --------------------------------------------------------------------------------
-Training Accuracy:             0.455883
-Testing Accuracy (Top-1):      0.226383
-Testing Accuracy (Top-3):      0.777214
-Testing Accuracy (Top-5):      0.954089
-Testing Accuracy (Top-10):     0.997514
-Testing Precision (weighted):  0.232266
-Testing Recall (weighted):     0.226383
-Testing F1-Score (weighted):   0.207313
+Training Accuracy:             0.455684
+Testing Accuracy (Top-1):      0.226886
+Testing Accuracy (Top-3):      0.777981
+Testing Accuracy (Top-5):      0.954565
+Testing Accuracy (Top-10):     0.997488
+Testing Precision (weighted):  0.229605
+Testing Recall (weighted):     0.226886
+Testing F1-Score (weighted):   0.207171
 
-Overfitting Gap:               0.229500 (22.95%)
+Overfitting Gap:               0.228799 (22.88%)
 
 Training History:
-  Initial train loss:          5.950845
-  Final train loss:            1.252072
-  Initial test loss:           5.952654
-  Final test loss:             1.474581
-  Train loss reduction:        4.698773
-  Test loss reduction:         4.478074
+  Initial train loss:          5.936225
+  Final train loss:            1.250968
+  Initial test loss:           5.937815
+  Final test loss:             1.473339
+  Train loss reduction:        4.685257
+  Test loss reduction:         4.464476
 
 5. FEATURE IMPORTANCE
 --------------------------------------------------------------------------------
 Top 15 Most Important Features:
-   1. inferencescore                 0.72158676
-   2. logp_mean                      0.04870658
-   3. logp_variance                  0.03545871
-   4. logp_alogps                    0.02171991
-   5. logp_chemaxon                  0.01933805
-   6. logp                           0.01583697
-   7. mw_per_hbond                   0.01457739
-   8. pka__strongest_basic_          0.01443726
-   9. pka__strongest_acidic_         0.01419456
-  10. pka_range                      0.01407590
-  11. molecular_weight               0.01365443
-  12. h_bond_total                   0.01343148
-  13. h_bond_ratio                   0.01333076
-  14. ro5_fulfilled                  0.01331731
-  15. n_hbd                          0.01331037
+   1. inferencescore                 0.72134072
+   2. logp_mean                      0.04798819
+   3. logp_variance                  0.03566572
+   4. logp_alogps                    0.02136878
+   5. logp_chemaxon                  0.01985075
+   6. logp                           0.01578771
+   7. mw_per_hbond                   0.01456045
+   8. pka__strongest_basic_          0.01453626
+   9. pka__strongest_acidic_         0.01423894
+  10. pka_range                      0.01413643
+  11. molecular_weight               0.01376739
+  12. h_bond_total                   0.01364790
+  13. n_hbd                          0.01355169
+  14. ro5_fulfilled                  0.01332248
+  15. h_bond_ratio                   0.01317315
 
 6. CLASSIFICATION REPORT (Top 10 Diseases)
 --------------------------------------------------------------------------------
@@ -132,12 +132,12 @@ Top 15 Most Important Features:
        Insulin Resistance       1.00      0.17      0.29       160
       Infertility, Female       0.00      0.00      0.00       160
               Weight Gain       1.00      0.47      0.64       160
-            Stomach Ulcer       0.86      0.04      0.07       160
+            Stomach Ulcer       1.00      0.03      0.05       160
 Urinary Bladder Neoplasms       0.00      0.00      0.00       160
 
-                micro avg       0.98      0.07      0.13      1600
-                macro avg       0.39      0.07      0.10      1600
-             weighted avg       0.39      0.07      0.10      1600
+                micro avg       1.00      0.07      0.13      1600
+                macro avg       0.40      0.07      0.10      1600
+             weighted avg       0.40      0.07      0.10      1600
 
 
 7. OUTPUT FILES GENERATED
@@ -159,18 +159,18 @@ Model Files:
 
 8. ANALYSIS & INSIGHTS
 --------------------------------------------------------------------------------
-⚠ Model still shows overfitting (train > test by 22.95%)
+⚠ Model still shows overfitting (train > test by 22.88%)
   - Regularization has been increased
   - Consider further reducing max_depth or increasing min_child_weight
 
-✓ Strong Top-3 accuracy (77.72%)
+✓ Strong Top-3 accuracy (77.80%)
   Model provides useful top-3 predictions for drug repurposing
-✓ Strong Top-5 accuracy (95.41%)
+✓ Strong Top-5 accuracy (95.46%)
   Model can narrow down to 5 candidate diseases effectively
 
 ⚡ Moderate class imbalance remains (ratio: 5.33:1)
 
-✓ Most important feature: inferencescore (0.7216)
+✓ Most important feature: inferencescore (0.7213)
   This feature dominates disease prediction
 
 9. RECOMMENDATIONS FOR FURTHER IMPROVEMENT
@@ -200,14 +200,14 @@ across 576 diseases using 16 features.
 
 Key achievements:
   • Reduced overfitting from 25% to 22.9%
-  • Achieved 22.64% Top-1 accuracy
-  • Achieved 95.41% Top-5 accuracy
+  • Achieved 22.69% Top-1 accuracy
+  • Achieved 95.46% Top-5 accuracy
   • Implemented class balancing and weights
   • Added 6 engineered features
 
 For multi-class drug repurposing with 576 diseases, Top-K metrics
 are most relevant. The model successfully narrows candidates from 576
-to 5-10 diseases with 95.4% accuracy, providing actionable insights
+to 5-10 diseases with 95.5% accuracy, providing actionable insights
 for drug repurposing research.
 
 ================================================================================

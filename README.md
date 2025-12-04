@@ -532,6 +532,3 @@ These results show that the model is effective at narrowing a very large set of 
 [7] PyTorch, "Build the Neural Network," PyTorch Tutorials.
 
 [8] O. Patel, "Drug Disease Associations," Kaggle dataset used for this repository.
-
-```
-```

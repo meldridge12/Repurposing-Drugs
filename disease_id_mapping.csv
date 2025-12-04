@@ -1,0 +1,144 @@
+disease_id,disease_name,sample_count
+0,"Abnormalities, Drug-Induced",187
+1,Acute Kidney Injury,566
+2,Acute Lung Injury,311
+3,Adenocarcinoma,531
+4,Adrenocortical Carcinoma,268
+5,Alopecia,246
+6,Alzheimer Disease,514
+7,Amphetamine-Related Disorders,383
+8,Amyotrophic lateral sclerosis 1,382
+9,Androgen-Insensitivity Syndrome,87
+10,Anxiety Disorders,396
+11,"Arrhythmias, Cardiac",354
+12,"Arthritis, Experimental",477
+13,"Arthritis, Juvenile",352
+14,"Arthritis, Rheumatoid",509
+15,Astrocytoma,241
+16,Atherosclerosis,478
+17,Atrial Fibrillation,246
+18,Autism Spectrum Disorder,155
+19,Autistic Disorder,545
+20,Barrett Esophagus,318
+21,Brain Diseases,317
+22,Brain Injuries,482
+23,Brain Ischemia,519
+24,Breast Neoplasms,612
+25,"Breast Neoplasms, Male",106
+26,"Bulbospinal neuronopathy, X-linked recessive",87
+27,Burkitt Lymphoma,133
+28,Calcinosis,393
+29,Carcinoma,455
+30,"Carcinoma, Ductal",109
+31,"Carcinoma, Hepatocellular",542
+32,"Carcinoma, Merkel Cell",95
+33,"Carcinoma, Non-Small-Cell Lung",444
+34,"Carcinoma, Squamous Cell",466
+35,"Cardiomyopathy, Hypertrophic",246
+36,Cardiovascular Diseases,419
+37,"Cell Transformation, Neoplastic",473
+38,Cerebral Hemorrhage,394
+39,Chemical and Drug Induced Liver Injury,618
+40,Chromosome Breakage,220
+41,Chronobiology Disorders,130
+42,Cleft Lip,213
+43,Cleft Palate,265
+44,Cocaine-Related Disorders,395
+45,"Colitis, Ulcerative",434
+46,Colonic Neoplasms,503
+47,Colorectal Neoplasms,544
+48,Copper-Overload Cirrhosis,311
+49,Developmental Disabilities,151
+50,"Diabetes Mellitus, Type 2",515
+51,"Diabetes, Gestational",247
+52,"Disease Models, Animal",327
+53,Disease Progression,416
+54,"Drug Metabolism, Poor, CYP2C19-Related",50
+55,Drug-Related Side Effects and Adverse Reactions,542
+56,Endometrial Neoplasms,360
+57,Endometriosis,416
+58,Epilepsy,380
+59,Escherichia coli Infections,159
+60,Esophageal Neoplasms,434
+61,Fatty Liver,465
+62,Fever,465
+63,Fibrous Dysplasia of Bone,137
+64,Genetic Predisposition to Disease,337
+65,Glioblastoma,372
+66,"Heart Defects, Congenital",295
+67,Heat Stroke,379
+68,Hemangiosarcoma,276
+69,Hematologic Neoplasms,184
+70,Hemorrhage,306
+71,Hyperalgesia,480
+72,Hyperkinesis,278
+73,Hypertension,614
+74,"Hypertrophy, Left Ventricular",290
+75,"Hypospadias 1, X-Linked",87
+76,"Hypotension, Orthostatic",195
+77,"Infarction, Middle Cerebral Artery",404
+78,"Infertility, Female",402
+79,"Infertility, Male",383
+80,Inflammatory Bowel Disease 13,133
+81,Insulin Resistance,434
+82,Intestinal Neoplasms,277
+83,"Kidney Failure, Chronic",470
+84,Kidney Neoplasms,371
+85,Leukemia,274
+86,"Leukemia, Myeloid, Acute",328
+87,"Liver Cirrhosis, Experimental",583
+88,Liver Neoplasms,446
+89,"Liver Neoplasms, Experimental",386
+90,Long QT Syndrome,184
+91,Lung Neoplasms,554
+92,Lymphoma,160
+93,"Lymphoma, Large B-Cell, Diffuse",354
+94,"Lymphoma, Non-Hodgkin",278
+95,"Mammary Neoplasms, Animal",363
+96,"Mammary Neoplasms, Experimental",417
+97,Marijuana Abuse,216
+98,Medulloblastoma,212
+99,Mental Disorders,242
+100,"Micronuclei, Chromosome-Defective",230
+101,Multiple Myeloma,391
+102,Myelodysplastic Syndromes,156
+103,Myocardial Ischemia,494
+104,Nausea,454
+105,Neoplasm Metastasis,505
+106,"Neoplasm Recurrence, Local",292
+107,Neoplasms,454
+108,Nervous System Diseases,531
+109,Neuroblastoma,269
+110,Neuroectodermal Tumors,99
+111,Neurotoxicity Syndromes,388
+112,Neutropenia,331
+113,Obesity,530
+114,Osteosarcoma,410
+115,Ovarian Neoplasms,407
+116,"Pain, Postoperative",175
+117,Pancreatic Neoplasms,443
+118,Parkinson Disease,478
+119,"Parkinson Disease, Secondary",88
+120,Peripheral Nervous System Diseases,426
+121,Pheochromocytoma,131
+122,Poisoning,338
+123,"Polycystic Kidney, Autosomal Dominant",156
+124,Pre-Eclampsia,260
+125,Precursor Cell Lymphoblastic Leukemia-Lymphoma,359
+126,Primary Ovarian Insufficiency,119
+127,Prostatic Intraepithelial Neoplasia,216
+128,Prostatic Neoplasms,614
+129,"Pulmonary Disease, Chronic Obstructive",441
+130,Pulmonary Emphysema,341
+131,Reperfusion Injury,532
+132,Seizures,564
+133,Skin Neoplasms,376
+134,Status Epilepticus,504
+135,Stomach Neoplasms,543
+136,Substance Withdrawal Syndrome,429
+137,Thrombosis,423
+138,"Translocation, Genetic",151
+139,Urinary Bladder Neoplasms,466
+140,Uterine Cervical Neoplasms,215
+141,Vomiting,338
+142,Wilms Tumor,94

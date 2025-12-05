@@ -513,6 +513,8 @@ The model:
 
 These results show that the model is effective at narrowing a very large set of possible diseases to a small set of promising candidates for repurposing studies.
 
+Github Repo Link: https://github.com/meldridge12/Repurposing-Drugs
+
 ---
 
 ## 9. References
